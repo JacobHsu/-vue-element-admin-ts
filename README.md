@@ -25,6 +25,21 @@
 
 English | [简体中文](./README-zh.md)
 
+## Azure
+
+[快速入門：在 Azure 入口網站中建立您的第一個靜態網站](https://docs.microsoft.com/zh-tw/azure/static-web-apps/get-started-portal?tabs=vue)
+
+package.json
+
+```js
+  "scripts": {
+    ...
+    "build": "vue-cli-service build",
+    "build:prod": "vue-cli-service build",
+    ...
+  },
+```
+
 ## Overview
 
 [vue-typescript-admin-template](http://armour.github.io/vue-typescript-admin-template) is a production-ready front-end solution for admin interfaces based on [vue](https://github.com/vuejs/vue), [typescript](https://www.typescriptlang.org/) and UI Toolkit [element-ui](https://github.com/ElemeFE/element). The original Javascript version code [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin/) was written by [PanJiaChen](https://github.com/PanJiaChen), many thanks to him for the awesome open source project! :)
