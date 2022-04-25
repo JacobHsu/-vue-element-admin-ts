@@ -105,11 +105,12 @@ import SocialSign from './components/SocialSignin.vue'
 })
 export default class extends Vue {
   private validateUsername = (rule: any, value: string, callback: Function) => {
-    if (!isValidUsername(value)) {
-      callback(new Error('Please enter the correct user name'))
-    } else {
-      callback()
-    }
+    // if (!isValidUsername(value)) {
+    //   callback(new Error('Please enter the correct user name'))
+    // } else {
+    //   callback()
+    // }
+    callback()
   }
 
   private validatePassword = (rule: any, value: string, callback: Function) => {
